@@ -1,0 +1,15 @@
+# This file acts as the project's changelog.
+
+`MooseX-Prototype 0.001 cpan:TOBYINK`
+	issued  2012-04-20;
+	label   "Initial release".
+
+`MooseX-Prototype 0.002 cpan:TOBYINK`
+	issued  2012-10-25;
+	label   "Reboot";
+	changeset [
+		item "'object' function for ex-nihilo object creation."^^Addition;
+		item "'use_as_prototype' function replaced with 'create_class_from_prototype'."^^Change;
+		item "'MooseX::Prototype::Role::UseAsPrototype' replaced with more functional 'MooseX::Prototype::Trait::Object'."^^Change;
+		item "Improved documentation with better explanation about what prototype-based programming is."^^Documentation;
+	].
