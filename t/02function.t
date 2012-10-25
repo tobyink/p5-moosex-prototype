@@ -9,7 +9,7 @@
 }
 
 use Test::More tests => 5;
-use MooseX::Prototype qw(use_as_prototype);
+use MooseX::Prototype create_class_from_prototype => { -as => q(use_as_prototype) };
 
 my $GmailAddress = use_as_prototype(
 	Local::EmailAddress->new( domain_part => 'gmail.com' )
