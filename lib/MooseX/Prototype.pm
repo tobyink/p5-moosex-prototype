@@ -35,7 +35,7 @@ my $cloned_attributes = sub {
 BEGIN {
 	package MooseX::Prototype;
 	our $AUTHORITY = 'cpan:TOBYINK';
-	our $VERSION   = '0.003';
+	our $VERSION   = '0.004';
 	no thanks;
 
 	use Sub::Exporter -setup => {
@@ -122,7 +122,7 @@ BEGIN {
 BEGIN {
 	package MooseX::Prototype::Trait::Object;
 	our $AUTHORITY = 'cpan:TOBYINK';
-	our $VERSION   = '0.003';
+	our $VERSION   = '0.004';
 	no thanks;
 	
 	use Moose::Role;
@@ -188,7 +188,7 @@ BEGIN {
 BEGIN {
 	package MooseX::Prototype::Trait::Object::RO;
 	our $AUTHORITY = 'cpan:TOBYINK';
-	our $VERSION   = '0.003';
+	our $VERSION   = '0.004';
 	no thanks;
 	use Moose::Role;
 	with qw( MooseX::Prototype::Trait::Object );
@@ -198,7 +198,7 @@ BEGIN {
 BEGIN {
 	package MooseX::Prototype::Trait::Object::RW;
 	our $AUTHORITY = 'cpan:TOBYINK';
-	our $VERSION   = '0.003';
+	our $VERSION   = '0.004';
 	no thanks;
 	use Moose::Role;
 	with qw( MooseX::Prototype::Trait::Object );

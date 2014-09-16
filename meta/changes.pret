@@ -20,3 +20,9 @@
 		item "Switch to Dist::Inkt."^^Packaging;
 	].
 
+`MooseX-Prototype 0.004 cpan:TOBYINK`
+	issued    2014-09-16;
+	changeset [
+		item "Add repo link."^^Packaging;
+	].
+
