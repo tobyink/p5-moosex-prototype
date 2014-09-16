@@ -1,6 +1,7 @@
 @prefix deps:  <http://ontologi.es/doap-deps#> .
 
 <http://purl.org/NET/cpan-uri/dist/MooseX-Prototype/project>
+	deps:runtime-requirement         [ deps:on "perl 5.008"^^deps:CpanId ];
 	deps:runtime-requirement         [ deps:on "thanks"^^deps:CpanId ];
 	deps:runtime-requirement         [ deps:on "Moose 2.00"^^deps:CpanId ];
 	deps:runtime-requirement         [ deps:on "Sub::Exporter"^^deps:CpanId ];
