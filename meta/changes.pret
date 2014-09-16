@@ -24,5 +24,6 @@
 	issued    2014-09-16;
 	changeset [
 		item "Add repo link."^^Packaging;
+		item "Add IRC link."^^Packaging;
 	].
 
