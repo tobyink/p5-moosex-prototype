@@ -8,6 +8,7 @@
 	:homepage             <https://metacpan.org/release/MooseX-Prototype>;
 	:download-page        <https://metacpan.org/release/MooseX-Prototype>;
 	:bug-database         <http://rt.cpan.org/Dist/Display.html?Queue=MooseX-Prototype>;
+	:repository           [ a :GitRepository; :browse <https://github.com/tobyink/p5-moosex-prototype> ];
 	:created              2012-04-20;
 	:license              <http://dev.perl.org/licenses/>;
 	:maintainer           cpan:TOBYINK;
