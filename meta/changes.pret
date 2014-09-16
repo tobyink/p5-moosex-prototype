@@ -25,5 +25,6 @@
 	changeset [
 		item "Add repo link."^^Packaging;
 		item "Add IRC link."^^Packaging;
+		item "No longer require thanks.pm."^^Change;
 	].
 
